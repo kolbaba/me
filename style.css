@@ -80,7 +80,7 @@ header h3 {
 	margin:0 auto;
 }
 section.content {
-	padding:100px 30px; 200px;
+	padding:100px 30px 200px;
 }
 section.content h3 {
 	margin-top:20px;
@@ -120,7 +120,7 @@ footer {
 	position:fixed;
 	bottom:0;
 	width:100%;
-	
+
 }
 @media (max-width:775px) {
 	section.content .inner {
