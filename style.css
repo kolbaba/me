@@ -1,47 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-	background:#efefef;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;background:#efefef}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* Start Styles */
 body {
 	font-family: 'Titillium Web', sans-serif;
@@ -64,10 +21,10 @@ strong {font-weight:bold;}
 header {
 	background: url('img/bg.png');
 	background-size:cover;
-	padding: 100px 0 10px;
+	padding: 100px 0 25px;
 	text-shadow: 0px -1px 6px #000;
 }
-header h1 {
+header h2 {
 	font-size:40px;
 	line-height:45px;
 }
@@ -76,18 +33,35 @@ header h3 {
 	line-height:35px;
 }
 .inner {
-	max-width:350px;
+	max-width:600px;
 	margin:0 auto;
 }
 section.content {
 	padding:100px 30px 200px;
 }
+section.content h1 {
+	font-size:30px;
+	margin-bottom:20px;
+}
 section.content h3 {
-	margin-top:20px;
+	margin:20px 0;
 	font-weight:bold;
+}
+section.content h3.hello {
+	font-size:30px;
 }
 section.content p {
 	line-height:25px;
+	margin-bottom:20px;
+}
+section.content hr {
+	border-top: 1px solid #e1e1e1;
+	color:#fff;
+}
+section.content .teaser {
+	max-width: 400px;
+	margin: 0 auto 60px;
+	text-align: center;
 }
 section.content .inner {
 	background: #f9f9f9;
@@ -126,4 +100,25 @@ footer {
 	section.content .inner {
 		padding:50px;
 	}
+}
+
+/* Nav */
+section.nav {
+	background:#202f36;
+	width: 100%;
+}
+section.nav ul {
+	text-align: center;
+}
+section.nav ul li {
+	display:inline-block;
+	margin:10px 20px;
+}
+section.nav ul li a {
+	color:#fff;
+	text-decoration:none;
+}
+/* Music Page */
+.music header {
+	background: url('img/music-dark-bg.jpg');
 }
