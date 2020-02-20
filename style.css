@@ -122,3 +122,14 @@ section.nav ul li a {
 .music header {
 	background: url('img/music-dark-bg.jpg');
 }
+
+/* Other */
+.gists {
+	float:right;
+	margin:0 20px 0 0;
+}
+.gists a:hover {
+	color:red;
+}
+
+
